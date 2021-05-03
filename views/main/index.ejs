@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Daily Prompt</title>
+    <!-- <link rel = "icon" href = "/public/images/letter.png" 
+        type = "image/png">  -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Create your prompt!</h1>
+        <h3>This free prompt service will help you stay on track with your ongoing work</h3>
+        <h4>Prompts are advised to be used for personal development, could be an ongoing project or a course!</h4>
+        <h4>Every morning at 10 these get dropped in your Inbox</h4>
+    </header>
+    <main>
+        <div class="centered">
+            <form action="/thankyou" method="POST">
+                <div class="form-control">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-control">
+                    <label for="email">Email address:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+<footer>&copy; Copyright 2021 Prompt</footer>
+</html>
